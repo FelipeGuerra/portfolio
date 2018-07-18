@@ -119,6 +119,13 @@
     background: #000;
     padding: 1px;
 }
+#cboxLoadedContent::-webkit-scrollbar {
+    background-color: #fff;
+    width: 3px;
+}
+#cboxLoadedContent::-webkit-scrollbar-thumb {
+    background-color: #000; 
+}
 
 #cboxLoadingGraphic {
     background: url(images/loading.gif) no-repeat center center;
