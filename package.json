@@ -1,14 +1,14 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "homepage": "https://github.com/FelipeGuerra/portfolio",
+  "homepage": "https://felipeguerra.dev/",
   "description": "",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --open --hot --mode development",
     "dev": "webpack --mode development",
-    "build": "webpack --mode production",
+    "build": "webpack --mode production && cp ./CNAME build/",
     "eslint": "eslint ./src/*.js",
     "deploy": "gh-pages -d build"
   },
