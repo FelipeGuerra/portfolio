@@ -1,0 +1,59 @@
+#intro {
+    background: url('../../images/main-background.jpg') no-repeat center;
+    color: #fff;
+    text-align: center;
+    .flex-column {
+        height: 100vh;
+        justify-content: space-around;
+        padding: 30px 0 100px;
+        @media screen and (max-width: 768px) {        
+            height: auto;
+        }
+    }
+
+    h1 {
+        font-size: 48px;
+        margin: 0;
+        @media screen and (max-width: 768px) {        
+            font-size: 36px;
+            margin-top: 15px;
+        }        
+    }
+
+    h2 {
+        font-size: 26px;
+        margin: 0;
+        @media screen and (max-width: 768px) {        
+            font-size: 22px;
+        }
+    }
+
+    .subtitle-line {
+        span {
+            display: block;
+            line-height: 0;
+            position: relative;
+            &:before,
+            &:after {
+                content: '';
+                width: 100px;
+                height: 3px;
+                background: #fff;
+                position: absolute;
+                top: 50%;
+            }
+            &:before {
+                right: 100%;
+                margin-right: 20px;
+            }
+            &:after {
+                left: 100%;
+                margin-left: 20px;
+            }
+            svg {
+                height: 40px;
+                width: 40px;
+            }
+        }
+    }
+}

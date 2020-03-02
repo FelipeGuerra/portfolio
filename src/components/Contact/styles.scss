@@ -1,0 +1,22 @@
+#contact {
+    .flex-column {
+        padding: 100px 0;
+
+        .subtitle-line {
+            span {
+                &:before,
+                &:after {
+                    background: #000;
+                }
+            }
+        }
+
+        a {            
+            color: #69a0ad;
+            font-size: 20px;
+            @media screen and (max-width: 768px) {        
+                font-size: 16px;
+            }
+        }
+    }
+}
