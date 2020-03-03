@@ -1,0 +1,35 @@
+{
+    "Front-end": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "ReactJS",
+        "jQuery",
+        "Bootstrap",
+        "Sass",
+        "Webpack",
+        "Gulp",
+        "Responsive layout",
+        "Cross-Browser"
+    ],
+    "Platforms/CMS": [
+        "Vtex Cloud",
+        "Presta Shop",
+        "EZ Commerce",
+        "B-Seller",
+        "Tray",
+        "Wordpress"
+    ],
+    "Back-end": [
+        "Python",
+        "PHP",
+        "MongoDB",
+        "MySQL",
+        "SQLServer",
+        "SQLite"
+    ],
+    "Version Control": [
+        "GIT",
+        "SVN"
+    ]
+}
